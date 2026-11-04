@@ -12,33 +12,25 @@
 ---
 ## Screenshots
 
+## Screenshots
+
 ### Server Running
-![Server](screenshots/server.png)
+![Server](screenshots/Screenshot%202026-11-04%20191508.png)
 
 ### Create Book
-![POST](screenshots/post-create.png)
+![Create Book](screenshots/Screenshot%202026-11-04%20191545.png)
 
 ### Get Books
-![GET](screenshots/get-books.png)
+![Get Books](screenshots/Screenshot%202026-11-04%20191638.png)
 
-### Search
-![Search](screenshots/search.png)
+### API Testing
+![API Testing](screenshots/Screenshot%202026-11-04%20191707.png)
 
-### Sorting
-![Sorting](screenshots/sorting.png)
+### Additional API Test
+![Additional Test](screenshots/Screenshot%202026-11-04%20191756.png)
 
-### Price Filter
-![Price Filter](screenshots/price-filter.png)
-
-### Update Book
-![Update](screenshots/put-update.png)
-
-### Delete Book
-![Delete](screenshots/delete.png)
-
-### 404 Error
-![404](screenshots/error-404.png)
-
+### Validation
+![Validation](screenshots/Screenshot%202026-11-04%20191855.png)
 ### Validation Errors
 ![Validation](screenshots/validation-title.png)
 ![Invalid Price](screenshots/validation-price.png)
