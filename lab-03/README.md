@@ -1,0 +1,89 @@
+## Screenshots
+
+### Server Running
+![Server](screenshots/server.png)
+
+### Create Book
+![POST](screenshots/post-create.png)
+
+### Get Books
+![GET](screenshots/get-books.png)
+
+### Search
+![Search](screenshots/search.png)
+
+### Sorting
+![Sorting](screenshots/sorting.png)
+
+### Price Filter
+![Price Filter](screenshots/price-filter.png)
+
+### Update Book
+![Update](screenshots/put-update.png)
+
+### Delete Book
+![Delete](screenshots/delete.png)
+
+### 404 Error
+![404](screenshots/error-404.png)
+
+### Validation Errors
+![Validation](screenshots/validation-title.png)
+![Invalid Price](screenshots/validation-price.png)
+# Backend Development Fundamentals – Lab 3
+
+## Student Details
+- Name: D. Mahesh
+- Registration Number: 252U1R9034
+- Section: S-24
+- Course: CSE Gen-AI
+- University: Aurora Deemed to be University
+
+## Lab Title
+REST API Development with Query Parameters, Validation, and Debugging
+
+## Objective
+To develop a REST API using Node.js, Express.js, and SQLite with CRUD operations, query parameters, validation, and error handling.
+
+## Technologies
+Node.js, Express.js, SQLite, JavaScript, PowerShell
+
+## Installation and Execution
+1. Install Node.js.
+2. Open the lab-03 folder in VS Code.
+3. Run `npm install`.
+4. Start the server using `node server.js`.
+5. Server URL: `http://localhost:3001`
+
+## API Endpoints
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | /books | Retrieve books |
+| GET | /books/:id | Retrieve one book |
+| POST | /books | Create a book |
+| PUT | /books/:id | Update a book |
+| DELETE | /books/:id | Delete a book |
+
+## Query Parameters
+- `search_q`: Search by title
+- `order_by`: Sort column
+- `order`: ASC or DESC
+- `limit`: Pagination limit
+- `offset`: Pagination offset
+- `min_price`, `max_price`: Price filtering
+
+## Validation and Error Handling
+- Validates title, author, and price.
+- HTTP 400 for invalid input.
+- HTTP 404 for missing books.
+- HTTP 201 for successful creation.
+- JSON error responses.
+
+## Testing
+Tested locally using PowerShell HTTP requests.
+
+## Deployment
+The API has been tested locally and is not deployed publicly.
+
+## Conclusion
+This lab helped me learn REST API development, CRUD operations, query parameters, SQLite integration, validation, and debugging.
