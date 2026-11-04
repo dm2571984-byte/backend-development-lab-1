@@ -1,3 +1,15 @@
+
+# Backend Development Fundamentals – Lab 3
+
+## Student Details
+
+- **Name:** D. Mahesh
+- **Registration Number:** 252U1R9034
+- **GitHub Username:** [dm2571984-byte](https://github.com/dm2571984-byte)
+- **Section:** CSE (Gen-AI) 2A
+- **Course:** Backend Development Fundamentals
+
+---
 ## Screenshots
 
 ### Server Running
